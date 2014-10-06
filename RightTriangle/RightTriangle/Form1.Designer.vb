@@ -34,66 +34,73 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(61, 26)
+        Me.Label1.Location = New System.Drawing.Point(46, 21)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(126, 17)
+        Me.Label1.Size = New System.Drawing.Size(95, 13)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Length of one side"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(52, 54)
+        Me.Label2.Location = New System.Drawing.Point(39, 44)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(135, 17)
+        Me.Label2.Size = New System.Drawing.Size(101, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Length of other side"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(39, 214)
+        Me.Label3.Location = New System.Drawing.Point(29, 174)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(148, 17)
+        Me.Label3.Size = New System.Drawing.Size(112, 13)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Length of Hypotenuse"
         '
         'txtSideOne
         '
-        Me.txtSideOne.Location = New System.Drawing.Point(193, 23)
+        Me.txtSideOne.Location = New System.Drawing.Point(145, 19)
+        Me.txtSideOne.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSideOne.Name = "txtSideOne"
-        Me.txtSideOne.Size = New System.Drawing.Size(136, 22)
+        Me.txtSideOne.Size = New System.Drawing.Size(103, 20)
         Me.txtSideOne.TabIndex = 3
         '
         'txtSideTwo
         '
-        Me.txtSideTwo.Location = New System.Drawing.Point(193, 51)
+        Me.txtSideTwo.Location = New System.Drawing.Point(145, 41)
+        Me.txtSideTwo.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSideTwo.Name = "txtSideTwo"
-        Me.txtSideTwo.Size = New System.Drawing.Size(136, 22)
+        Me.txtSideTwo.Size = New System.Drawing.Size(103, 20)
         Me.txtSideTwo.TabIndex = 4
         '
         'txtHyp
         '
-        Me.txtHyp.Location = New System.Drawing.Point(193, 211)
+        Me.txtHyp.Location = New System.Drawing.Point(145, 171)
+        Me.txtHyp.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtHyp.Name = "txtHyp"
         Me.txtHyp.ReadOnly = True
-        Me.txtHyp.Size = New System.Drawing.Size(136, 22)
+        Me.txtHyp.Size = New System.Drawing.Size(103, 20)
         Me.txtHyp.TabIndex = 5
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(99, 122)
+        Me.btnCalculate.Location = New System.Drawing.Point(74, 99)
+        Me.btnCalculate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnCalculate.Name = "btnCalculate"
-        Me.btnCalculate.Size = New System.Drawing.Size(187, 29)
+        Me.btnCalculate.Size = New System.Drawing.Size(140, 24)
         Me.btnCalculate.TabIndex = 6
         Me.btnCalculate.Text = "Calculate Hypotenuse"
         Me.btnCalculate.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(361, 267)
+        Me.ClientSize = New System.Drawing.Size(271, 217)
         Me.Controls.Add(Me.btnCalculate)
         Me.Controls.Add(Me.txtHyp)
         Me.Controls.Add(Me.txtSideTwo)
@@ -101,6 +108,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "Right Triangle"
         Me.ResumeLayout(False)
